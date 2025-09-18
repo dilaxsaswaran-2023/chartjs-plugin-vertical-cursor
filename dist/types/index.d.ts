@@ -1,0 +1,1 @@
+export { VerticalCursorPlugin } from "./plugin";

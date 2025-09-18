@@ -1,0 +1,11 @@
+
+`test/plugin.test.ts`
+```ts
+import { describe, it, expect } from "vitest";
+import { VerticalCursorPlugin } from "../src/plugin";
+
+describe("plugin basics", () => {
+  it("has id", () => {
+    expect(VerticalCursorPlugin.id).toBe("verticalCursor");
+  });
+});
